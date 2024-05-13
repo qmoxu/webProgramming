@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма для додавання викладача</title>
+</head>
+<body>
+    <header>
+        <h2>Повна версія картки викладача </h2>
+    </header>
+    <br>
+    <fieldset>
+        <p>ПІБ:</p>
+        <input type="text" id="pib" name="pib" required>
+        <p>Стать:</p>
+        <select id="gender" name="gender" required>
+            <option value="male">Чоловіча</option>
+            <option value="female">Жіноча</option>
+        </select>
+        <p>Дата народження:</p>
+        <input type="date" id="dob" name="dob" required>
+        <p>Email:</p>
+        <input type="email" id="email" name="email" required>
+        <p>Телефон:</p>
+        <input type="tel" id="phone" name="phone" required>
+        <p>Бажаний колір фону:</p>
+        <input type="color" id="background_color" name="background_color">
+    
+        <p>Країна:</p>
+        <input type="text" id="country" name="country">
+        <p>Місто:</p>
+        <input type="text" id="city" name="city">
+        <p>Коментар:</p>
+        <textarea id="comment" name="comment" rows="2" cols="30"></textarea>
+    </fieldset>
+    <button type="submit">Додати викладача</button>
+    </form>        
+    </main>
+</body>
+</html>
